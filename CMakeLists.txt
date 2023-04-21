@@ -696,7 +696,7 @@ if(NOT RISCOS AND NOT PSP)
 endif()
 if(MZ_LZMA)
     set_target_properties(${PROJECT_NAME} PROPERTIES C_STANDARD 99)
-endif
+endif()
 
 message(STATUS "MINIZIP_LIB=${MINIZIP_LIB}")
 message(STATUS "MINIZIP_DEP=${MINIZIP_DEP}")
