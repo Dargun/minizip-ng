@@ -700,6 +700,7 @@ endif()
 
 message(STATUS "MINIZIP_LIB=${MINIZIP_LIB}")
 message(STATUS "MINIZIP_DEP=${MINIZIP_DEP}")
+message(STATUS "MINIZIP_LBD=${MINIZIP_LBD}")
 
 target_link_libraries(${PROJECT_NAME} PUBLIC ${MINIZIP_LIB} ${MINIZIP_DEP})
 target_link_directories(${PROJECT_NAME} PUBLIC ${MINIZIP_LBD})
